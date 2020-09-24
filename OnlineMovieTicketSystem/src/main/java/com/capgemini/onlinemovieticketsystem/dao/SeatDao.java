@@ -3,10 +3,12 @@ package com.capgemini.onlinemovieticketsystem.dao;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.capgemini.onlinemovieticketsystem.entity.Customer;
+import com.capgemini.onlinemovieticketsystem.entity.Seat;
+
 
 
 @Repository
-public interface BookingDao extends JpaRepository<Customer, Integer> {
-
+public interface SeatDao extends JpaRepository<Seat, Integer>
+{
+	
 }

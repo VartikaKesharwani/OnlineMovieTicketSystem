@@ -1,5 +1,5 @@
 package com.capgemini.onlinemovieticketsystem.serviceimpl;
 
-public class BookingServiceImpl {
+public class AdminServiceImpl {
 
 }

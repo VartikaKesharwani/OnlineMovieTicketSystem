@@ -5,8 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.capgemini.onlinemovieticketsystem.entity.Customer;
 
-
 @Repository
-public interface BookingDao extends JpaRepository<Customer, Integer> {
+public interface CustomerDao extends JpaRepository<Customer, Integer> {
 
 }
